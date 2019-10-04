@@ -1,7 +1,8 @@
 # CakePHP logs collector
 
-:jack_o_lantern: Reason - I want to create slef hosted logs collector where you connect (trough plugin) any app, blog sites in production/development state running primary on CakePHP.
-Here you can find all logs sorted by levels as cakephp knows, create reports and statistics. This will be opensource and free forever.
+:jack_o_lantern: CakePHP logs collector is a self-hosted logs collector you connect (through a plugin) to any app and blog sites in a production/development state running primarly on CakePHP.
+With CakePHP logs collector you can sort all logs by levels known by CakePHP, and generate reports as well as statistics. CakePHP will forever stay open source.
+In future releases, the ability to be notified for logs by email will be added.
 
 
 ## Installation
@@ -15,7 +16,7 @@ If Composer is installed globally, run
 composer create-project --prefer-dist cakephp/app
 ```
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
+In case you want to use a different directory name (e.g. `/myapp/`):
 
 ```bash
 composer create-project --prefer-dist cakephp/app myapp
@@ -28,13 +29,13 @@ up the built-in webserver with:
 bin/cake server -p 8765
 ```
 
-Then visit `http://localhost:8765` to see the welcome page.
+Then you will be able to visit `http://localhost:8765` and see the welcome page.
 
 ## Update
 
 Since this skeleton is a starting point for your application and various files
 would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
+automated updates, so you must to perform any updates manually.
 
 ## Configuration
 
