@@ -1,6 +1,6 @@
 # CakePHP logs collector
 
-:jack_o_lantern: CakePHP logs collector is a self-hosted logs collector you connect (through a plugin) to any app and blog sites in a production/development state running primarly on CakePHP.
+:jack_o_lantern: CakePHP logs collector is a self-hosted logs collector you can connect (through a plugin) to any app and blog sites in a production/development state running primarly on CakePHP.
 With CakePHP logs collector you can sort all logs by levels known by CakePHP, and generate reports as well as statistics. CakePHP will forever stay open source.
 In future releases, the ability to be notified for logs by email will be added.
 
