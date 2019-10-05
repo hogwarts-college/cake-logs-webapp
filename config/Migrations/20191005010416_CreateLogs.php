@@ -15,7 +15,7 @@ class CreateLogs extends AbstractMigration
         $table = $this->table('logs');
         $table->addColumn('user_id', 'integer');
         $table->addForeignKey('user_id', 'users', 'id', ['delete'=> 'CASCADE', 'update'=> 'CASCADE']);
-        $table->addColumn('level', 'text', [
+        $table->addColumn('level', 'string', [
             'limit' => 255,
             'null' => false,
         ]);
